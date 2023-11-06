@@ -1,0 +1,1121 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>revel-universal-player documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top d-block d-sm-none">
+            <a href="../" class="navbar-brand">revel-universal-player documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item">Components</li>
+  <li class="breadcrumb-item"
+  >
+  TerminalSettingsSerialComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a href="#info" class="nav-link active"
+                role="tab" id="info-tab" data-bs-toggle="tab" data-link="info">Info</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/routes/settings/terminal-settings-serial/terminal-settings-serial.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="../miscellaneous/enumerations.html#View" target="_self" >AfterViewInit</a></code>
+                <code>OnDestroy</code>
+    </p>
+
+
+<section data-compodoc="block-metadata">
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-terminal-settings-serial</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./terminal-settings-serial.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./terminal-settings-serial.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-index">
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#_device" >_device</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#_previousOutput" >_previousOutput</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#_serialOutput" >_serialOutput</a>
+                            </li>
+                            <li>
+                                <a href="#baudRates" >baudRates</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                <a href="#child" >child</a>
+                            </li>
+                            <li>
+                                <a href="#dataBits" >dataBits</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#fb" >fb</a>
+                            </li>
+                            <li>
+                                <a href="#flowControl" >flowControl</a>
+                            </li>
+                            <li>
+                                <a href="#form" >form</a>
+                            </li>
+                            <li>
+                                <a href="#numberLinesWritten" >numberLinesWritten</a>
+                            </li>
+                            <li>
+                                <a href="#parity" >parity</a>
+                            </li>
+                            <li>
+                                <a href="#serialOptions" >serialOptions</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#settingService" >settingService</a>
+                            </li>
+                            <li>
+                                <a href="#stopBits" >stopBits</a>
+                            </li>
+                            <li>
+                                <a href="#terminalAvailable" >terminalAvailable</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#clearTerminal" >clearTerminal</a>
+                            </li>
+                            <li>
+                                <a href="#writeConsole" >writeConsole</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Inputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#device" >device</a>
+                            </li>
+                            <li>
+                                <a href="#previousOutput" >previousOutput</a>
+                            </li>
+                            <li>
+                                <a href="#serialOutput" >serialOutput</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+                    <tr>
+                        <td class="col-md-4">
+                            <h6><b>Accessors</b></h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <ul class="index-list">
+                                <li>
+                                    <a href="#device" >device</a>
+                                </li>
+                                <li>
+                                    <a href="#serialOutput" >serialOutput</a>
+                                </li>
+                                <li>
+                                    <a href="#previousOutput" >previousOutput</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-constructor">
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(fb: FormBuilder, settingService: SettingsService)</code>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>fb</td>
+                                                  
+                                                        <td>
+                                                                    <code>FormBuilder</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>settingService</td>
+                                                  
+                                                        <td>
+                                                                    <code>SettingsService</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+    <section data-compodoc="block-inputs">
+    <h3 id="inputs">Inputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="device"></a>
+                        <b>device</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="previousOutput"></a>
+                        <b>previousOutput</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="serialOutput"></a>
+                        <b>serialOutput</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+    <section data-compodoc="block-methods">
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="clearTerminal"></a>
+                    <span class="name">
+                        <span ><b>clearTerminal</b></span>
+                        <a href="#clearTerminal"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>clearTerminal()</code>
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="writeConsole"></a>
+                    <span class="name">
+                        <span ><b>writeConsole</b></span>
+                        <a href="#writeConsole"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>writeConsole(message)</code>
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>message</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section data-compodoc="block-properties">
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_device"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>_device</b></span>
+                        <a href="#_device"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_previousOutput"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>_previousOutput</b></span>
+                        <a href="#_previousOutput"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_serialOutput"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>_serialOutput</b></span>
+                        <a href="#_serialOutput"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="baudRates"></a>
+                    <span class="name">
+                        <span ><b>baudRates</b></span>
+                        <a href="#baudRates"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+    { value: &#x27;1200&#x27;, viewValue: &#x27;1200&#x27; },
+    { value: &#x27;2400&#x27;, viewValue: &#x27;2400&#x27; },
+    { value: &#x27;4800&#x27;, viewValue: &#x27;4800&#x27; },
+    { value: &#x27;9600&#x27;, viewValue: &#x27;9600 [Revel Default]&#x27; },
+    { value: &#x27;19200&#x27;, viewValue: &#x27;19200&#x27; },
+    { value: &#x27;38400&#x27;, viewValue: &#x27;38400&#x27; },
+    { value: &#x27;57600&#x27;, viewValue: &#x27;57600&#x27; },
+    { value: &#x27;115200&#x27;, viewValue: &#x27;115200&#x27; }
+  ]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="child"></a>
+                    <span class="name">
+                            <span class="modifier"></span>
+                        <span ><b>child</b></span>
+                        <a href="#child"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>NgTerminal</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <b>Decorators : </b>
+                        <br />
+                        <code>
+                            @ViewChild(&#x27;term&#x27;, {static: true})<br />
+                        </code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dataBits"></a>
+                    <span class="name">
+                        <span ><b>dataBits</b></span>
+                        <a href="#dataBits"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+    { value: &#x27;5&#x27;, viewValue: &#x27;5&#x27; },
+    { value: &#x27;6&#x27;, viewValue: &#x27;6&#x27; },
+    { value: &#x27;7&#x27;, viewValue: &#x27;7&#x27; },
+    { value: &#x27;8&#x27;, viewValue: &#x27;8 [Default]&#x27; }
+  ]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="fb"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>fb</b></span>
+                        <a href="#fb"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>FormBuilder</code>
+
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="flowControl"></a>
+                    <span class="name">
+                        <span ><b>flowControl</b></span>
+                        <a href="#flowControl"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+    { value: &#x27;off&#x27;, viewValue: &#x27;Off [Default]&#x27; },
+    { value: &#x27;rtscts&#x27;, viewValue: &#x27;CTS/RTS&#x27; },
+    { value: &#x27;xon/xoff&#x27;, viewValue: &#x27;XON/XOFF&#x27; },
+    { value: &#x27;xoff&#x27;, viewValue: &#x27;XOFF&#x27; },
+    { value: &#x27;xon&#x27;, viewValue: &#x27;XON&#x27; }
+  ]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="form"></a>
+                    <span class="name">
+                        <span ><b>form</b></span>
+                        <a href="#form"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>FormGroup</code>
+
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="numberLinesWritten"></a>
+                    <span class="name">
+                        <span ><b>numberLinesWritten</b></span>
+                        <a href="#numberLinesWritten"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>0</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="parity"></a>
+                    <span class="name">
+                        <span ><b>parity</b></span>
+                        <a href="#parity"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+    { value: &#x27;none&#x27;, viewValue: &#x27;None [Default]&#x27; },
+    { value: &#x27;odd&#x27;, viewValue: &#x27;Odd&#x27; },
+    { value: &#x27;even&#x27;, viewValue: &#x27;Even&#x27; },
+    { value: &#x27;mark&#x27;, viewValue: &#x27;Mark&#x27; },
+    { value: &#x27;space&#x27;, viewValue: &#x27;Space&#x27; }
+  ]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="serialOptions"></a>
+                    <span class="name">
+                        <span ><b>serialOptions</b></span>
+                        <a href="#serialOptions"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+    { value: &#x27;true&#x27;, viewValue: &#x27;Enabled (default)&#x27; },
+    { value: &#x27;false&#x27;, viewValue: &#x27;Disabled&#x27; }
+  ]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="settingService"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>settingService</b></span>
+                        <a href="#settingService"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>SettingsService</code>
+
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="stopBits"></a>
+                    <span class="name">
+                        <span ><b>stopBits</b></span>
+                        <a href="#stopBits"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+    { value: &#x27;1&#x27;, viewValue: &#x27;1 [Default]&#x27; },
+    { value: &#x27;2&#x27;, viewValue: &#x27;2&#x27; }
+  ]</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="terminalAvailable"></a>
+                    <span class="name">
+                        <span ><b>terminalAvailable</b></span>
+                        <a href="#terminalAvailable"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-accessors">
+    <h3 id="accessors">
+        Accessors
+    </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="device"></a>
+                        <span class="name"><b>device</b><a href="#device"><span class="icon ion-ios-link"></span></a></span>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                        <span class="accessor"><b>set</b><code>device(value: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code></span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+
+                                <div class="io-description">
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                        <td>Type</td>
+                                                    <td>Optional</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                            <td>value</td>
+                                                    
+                                                            <td>
+                                                                            <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                                            </td>
+                                                    
+                                                        <td>
+                                                                No
+                                                        </td>
+                                                        
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                                </div>
+                        </td>
+                    </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="serialOutput"></a>
+                        <span class="name"><b>serialOutput</b><a href="#serialOutput"><span class="icon ion-ios-link"></span></a></span>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                        <span class="accessor"><b>set</b><code>serialOutput(value: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code></span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+
+                                <div class="io-description">
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                        <td>Type</td>
+                                                    <td>Optional</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                            <td>value</td>
+                                                    
+                                                            <td>
+                                                                            <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                                            </td>
+                                                    
+                                                        <td>
+                                                                No
+                                                        </td>
+                                                        
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                                </div>
+                        </td>
+                    </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="previousOutput"></a>
+                        <span class="name"><b>previousOutput</b><a href="#previousOutput"><span class="icon ion-ios-link"></span></a></span>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                        <span class="accessor"><b>set</b><code>previousOutput(value: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code></span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+
+                                <div class="io-description">
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                        <td>Type</td>
+                                                    <td>Optional</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                            <td>value</td>
+                                                    
+                                                            <td>
+                                                                            <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                                            </td>
+                                                    
+                                                        <td>
+                                                                No
+                                                        </td>
+                                                        
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                                </div>
+                        </td>
+                    </tr>
+            </tbody>
+        </table>
+</section>
+</div>
+
+
+
+
+
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div style="height: calc(100vh - 64px)" fxLayout="column" fxLayoutAlign="space-around center">    <div *ngIf="_device && _device.path !== \'Default\'" fxLayout="row wrap"        style="height: calc(20% - 64px); width: 100%; margin-top: 15px" fxLayoutAlign="space-between center">        <div fxFlex="100" fxLayout="column" fxLayoutAlign="space-between center">            <h4 style="font-size: 30px"> {{_device?.path}} </h4>        </div>        <div fxFlex="100" fxLayout="column" style="margin-bottom: 15px" fxLayoutAlign="space-between center">            <span style="font-size: 10px">record as of {{_device?.timestamp}}</span>        </div>        <div fxFlex="30" fxLayout="column" fxLayoutAlign="space-between center">            <h4><span style="font-weight: bolder">Status:</span> {{_device?.port?.isOpen ? \'Open\': \'Closed\'}}</h4>        </div>        <div fxFlex="30" fxLayout="column" fxLayoutAlign="space-between center">            <h4><span style="font-weight: bolder">Location Id:</span> {{_device?.locationId ? _device?.locationId:                \'NA\'}}</h4>        </div>        <div fxFlex="30" fxLayout="column" fxLayoutAlign="space-between center">            <h4><span style="font-weight: bolder">Pnp Id:</span> {{_device?.pnpId ? _device?.pnpId: \'NA\'}}</h4>        </div>        <div fxFlex="30" fxLayout="column" fxLayoutAlign="space-between center">            <h4><span style="font-weight: bolder">Type:</span> {{_device?.type}}</h4>        </div>        <div fxFlex="30" fxLayout="column" fxLayoutAlign="space-between center">            <h4><span style="font-weight: bolder">Product Id:</span> {{_device?.productId ? _device?.productId: \'NA\'}}            </h4>        </div>        <div fxFlex="30" fxLayout="column" fxLayoutAlign="space-between center">            <h4><span style="font-weight: bolder">Serial Number:</span> {{_device?.serialNumber ? _device?.serialNumber:                \'NA\'}}</h4>        </div>        <div fxFlex="30" fxLayout="column" fxLayoutAlign="space-between center">            <h4><span style="font-weight: bolder">Manufacturer:</span> {{_device?.manufacturer ? _device?.manufacturer:                \'NA\'}}</h4>        </div>        <div *ngIf="!_device?.error" fxFlex="70" fxLayout="column" fxLayoutAlign="space-between center">            <h4><span style="font-weight: bolder">Input Received:</span>                {{_previousOutput[_device.path] && _previousOutput[_device.path].length>0 ? \'Yes\' : \'No [Are the                settings correct for this device?]\'}}</h4>        </div>        <div *ngIf="_device?.error" fxFlex="70" fxLayout="column" fxLayoutAlign="space-between center">            <h4><span style="font-weight: bolder">Error:</span> {{_device?.error}} <b style="color: red">[Try unplugging                    the device!]</b></h4>        </div>    </div>    <div style="width: 100%; margin-top: 25px; height: calc(20% - 64px);" *ngIf="_device.path === \'Default\'">        <h1 style="text-align: center">Default Serial Settings</h1>    </div>    <div style="width: 95%; height: 1px; margin-bottom: 10px; background: black"></div>    <div fxLayout="row wrap" style="height: 20%; margin-bottom: 20px" fxLayoutAlign="space-between center"        [formGroup]="form">        <div fxFlex="30" fxLayout="column" fxLayoutAlign="space-between center">            <h4>Serial Enabled</h4>            <mat-form-field appearance="fill">                <mat-label>Serial Enabled</mat-label>                <mat-select formControlName="pref_enable_serial">                    <mat-option *ngFor="let opt of serialOptions" [value]="opt.value">                        {{opt.viewValue}}                    </mat-option>                </mat-select>            </mat-form-field>        </div>        <div fxFlex="30" fxLayout="column" fxLayoutAlign="space-between center">            <h4>Baud Rate</h4>            <mat-form-field appearance="fill">                <mat-label>Baud Rate</mat-label>                <mat-select formControlName="pref_baud_rates">                    <mat-option *ngFor="let baudRate of baudRates" [value]="baudRate.value">                        {{baudRate.viewValue}}                    </mat-option>                </mat-select>            </mat-form-field>        </div>        <div fxFlex="30" fxLayout="column" fxLayoutAlign="space-between center">            <h4>Data Bits</h4>            <mat-form-field appearance="fill">                <mat-label>Data Bits</mat-label>                <mat-select formControlName="pref_data_bits">                    <mat-option *ngFor="let data of dataBits" [value]="data.value">                        {{data.viewValue}}                    </mat-option>                </mat-select>            </mat-form-field>        </div>        <div fxFlex="30" fxLayout="column" fxLayoutAlign="space-between center">            <h4>Parity</h4>            <mat-form-field appearance="fill">                <mat-label>Parity</mat-label>                <mat-select formControlName="pref_parity">                    <mat-option *ngFor="let part of parity" [value]="part.value">                        {{part.viewValue}}                    </mat-option>                </mat-select>            </mat-form-field>        </div>        <div fxFlex="30" fxLayout="column" fxLayoutAlign="space-between center">            <h4>Stop Bits</h4>            <mat-form-field appearance="fill">                <mat-label>Stop Bits</mat-label>                <mat-select formControlName="pref_stop_bits">                    <mat-option *ngFor="let stop of stopBits" [value]="stop.value">                        {{stop.viewValue}}                    </mat-option>                </mat-select>            </mat-form-field>        </div>        <div fxFlex="30" fxLayout="column" fxLayoutAlign="space-between center">            <h4>Flow Control</h4>            <mat-form-field appearance="fill">                <mat-label>Flow Control</mat-label>                <mat-select formControlName="pref_flow_control">                    <mat-option *ngFor="let flow of flowControl" [value]="flow.value">                        {{flow.viewValue}}                    </mat-option>                </mat-select>            </mat-form-field>        </div>    </div>    <div style="width: 90%; height: 40%; border-radius: 10px; overflow: hidden">        <ng-terminal #term style="width: 100%; height: 100%"></ng-terminal>    </div></div></div>'
+    var COMPONENTS = [{'name': 'ActivationComponent', 'selector': 'app-activation'},{'name': 'ActivationErrorComponent', 'selector': 'app-activation-error'},{'name': 'AlertComponent', 'selector': 'app-alert'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AudioSourceComponent', 'selector': 'app-audio-source'},{'name': 'BaseComponent', 'selector': 'base-app'},{'name': 'BaseSourceComponent', 'selector': 'base-source'},{'name': 'BrightSignGalleryComponent', 'selector': 'app-bs-gallery'},{'name': 'BrightSignVideoSourceComponent', 'selector': 'app-bs-video-source'},{'name': 'ClockComponent', 'selector': 'app-clock'},{'name': 'CockpitComponent', 'selector': 'app-usb-settings'},{'name': 'DeploymentConfigComponent', 'selector': 'deploy-config-notification-snack'},{'name': 'EmptySourceComponent', 'selector': 'app-empty-source'},{'name': 'FaceDemoComponent', 'selector': 'app-face-demo'},{'name': 'FaceDetectionComponent', 'selector': 'app-face-detection'},{'name': 'GadgetComponent', 'selector': 'app-gadget'},{'name': 'GadgetSourceComponent', 'selector': 'app-gadget-source'},{'name': 'GalleryComponent', 'selector': 'app-gallery'},{'name': 'HotspotComponent', 'selector': 'app-hotspot'},{'name': 'ImageComponent', 'selector': 'app-image'},{'name': 'ImageSourceComponent', 'selector': 'app-image-source'},{'name': 'KeyNotActiveComponent', 'selector': 'app-key-not-active'},{'name': 'LoadingComponent', 'selector': 'app-loading'},{'name': 'MarqueeComponent', 'selector': 'app-marquee'},{'name': 'NetSyncComponent', 'selector': 'app-net-sync'},{'name': 'NetworkCheckerComponent', 'selector': 'app-network-checker'},{'name': 'NothingToPlayComponent', 'selector': 'app-nothing-to-play'},{'name': 'OptionsComponent', 'selector': 'app-options'},{'name': 'PageNotFoundComponent', 'selector': 'app-page-not-found'},{'name': 'PasswordDialogComponent', 'selector': 'dialog-overview-example-dialog'},{'name': 'QrCodeComponent', 'selector': 'app-qr-code'},{'name': 'ResetDialogComponent', 'selector': 'reset-dialog'},{'name': 'RestartRevelApplicationComponent', 'selector': 'restart-revel-application'},{'name': 'RichTextComponent', 'selector': 'app-rich-text'},{'name': 'ScheduleErrorComponent', 'selector': 'app-schedule-error'},{'name': 'SearchPreviousDeviceDialogComponent', 'selector': 'search-previous-device-dialog'},{'name': 'SettingsComponent', 'selector': 'app-settings'},{'name': 'ShapeComponent', 'selector': 'app-shape'},{'name': 'SlideshowComponent', 'selector': 'app-slideshow'},{'name': 'SlideshowTouchScrollComponent', 'selector': 'app-slideshow-touch-scroll'},{'name': 'StartupDebugComponent', 'selector': 'app-startup-debug'},{'name': 'TamperComponent', 'selector': 'app-tamper'},{'name': 'TemplateComponent', 'selector': 'app-template'},{'name': 'TemplateSourceComponent', 'selector': 'app-template-source'},{'name': 'TerminalSettingsSerialComponent', 'selector': 'app-terminal-settings-serial'},{'name': 'TextComponent', 'selector': 'app-text'},{'name': 'TextSourceComponent', 'selector': 'app-text-source'},{'name': 'ThumbnailWebSourceComponent', 'selector': 'app-thumbnail-web-source'},{'name': 'TvTunerComponent', 'selector': 'app-tv-tuner'},{'name': 'UsbSettingsComponent', 'selector': 'app-usb-settings'},{'name': 'VideoSourceComponent', 'selector': 'app-video-source'},{'name': 'VistarSourceComponent', 'selector': 'app-vistar-source'},{'name': 'WebpageComponent', 'selector': 'app-webpage'},{'name': 'WebSourceComponent', 'selector': 'app-web-source'},{'name': 'YoutubeSourceComponent', 'selector': 'app-youtube-source'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'TerminalSettingsSerialComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'TerminalSettingsSerialComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
