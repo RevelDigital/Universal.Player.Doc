@@ -31,48 +31,7 @@
                <div class="content getting-started">
                    <div class="content-data">
 
-<p><a href="https://angular.io/"><img src="https://www.vectorlogo.zone/logos/angular/angular-icon.svg" alt="Angular Logo" class="img-responsive"></a>
-<a href="https://www.heroku.com/"><img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="Heroku Logo" class="img-responsive"></a>
-<a href="https://github.com/microsoft/TypeScript"><img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" alt="Typescript Logo" class="img-responsive"></a>
-<a href="https://firebase.google.com/"><img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase Logo" class="img-responsive"></a>
-<a href="https://electronjs.org/"><img src="https://www.vectorlogo.zone/logos/electronjs/electronjs-icon.svg" alt="Electron Logo" class="img-responsive"></a>
-<a href="https://airbrake.io/"><img src="https://www.vectorlogo.zone/logos/airbrakeio/airbrakeio-icon.svg" alt="Airbrake Logo" class="img-responsive"></a></p>
 <h1>RevelDigital Universal Player</h1>
-<p>Application was built with angular 11, Electron 12, GSAP, and other supporting libraries.</p>
-<h2>General Information</h2>
-<h3>Built With</h3>
-<ul>
-<li><a href="https://angular.io/docs">Anguler 11</a> - The web framework used</li>
-<li><a href="https://www.typescriptlang.org/docs/home.html">Typescript 4.7.0</a> - Language Version</li>
-<li><a href="https://hammerjs.github.io/getting-started/">Hammer.js</a> - Gestures Support Library</li>
-<li><a href="https://greensock.com">GreenSock.js</a> - Animation Library
-/</li>
-</ul>
-<h2>Getting Started</h2>
-<h3>Base Script</h3>
-<div><pre class="line-numbers"><code class="language-none">Controller.onTemplateInitialized.subscribe(
-    () =&gt; { /* Triggered when the template is created */
-    }
-);
-
-Controller.onTemplateTerminated.subscribe(
-    () =&gt; { /* Triggered when the template is destroyed */
-    }
-);
-
-Controller.onTemplateClicked.subscribe(
-    () =&gt; { /* Global click handler for entire template */
-    }
-);</code></pre></div><h3>Gestures Use HammerJS</h3>
-<p>Implemented Gestures:</p>
-<ul>
-<li>Pan</li>
-<li>Pinch</li>
-<li>Press</li>
-<li>Rotate</li>
-<li>Swipe</li>
-<li>Tap</li>
-</ul>
 <h3>Implemented Module Types</h3>
 <ul>
 <li><p>Clock - Analog or digital clock.</p>
@@ -99,8 +58,6 @@ Controller.onTemplateClicked.subscribe(
 </li>
 <li><p>TV - Live TV or video feed.</p>
 </li>
-<li><p>Page - A container for other components to give a group of components page behavior</p>
-</li>
 </ul>
 <h2>Examples</h2>
 <h3>Listening For A Click</h3>
@@ -112,39 +69,13 @@ Controller.onTemplateClicked.subscribe(
     (command) =&gt;{
         console.log(command);
     }
-);</code></pre></div><h3>Creating A Custom Animation</h3>
-<p><a href="https://greensock.com/docs/TweenMax">GSAP</a> is used for animations. To create a custom animation use the animate method of a module.</p>
-<p>The first parameter is the duration of the animation. The second is an TweenMax formatted object (Look at GSAP docs for more info).</p>
-<div><pre class="line-numbers"><code class="language-none"> Module.animate(1, {scale:5});</code></pre></div><h3>Using An Animation Listener</h3>
-<div><pre class="line-numbers"><code class="language-none">Module.onAnimation.subscribe(
-    (event) =&gt;{
-        console.log(event);
-    }
-);</code></pre></div><h3>BrightScript-JavaScript Objects Are Available In Script</h3>
-<p><a href="https://docs.brightsign.biz/display/DOC/BrightScript-JavaScript+Objects">BrightScript-Javascript Objects</a></p>
-<p>Example:</p>
-<div><pre class="line-numbers"><code class="language-none">console.log(new BSDeviceInfo());
-
-output: {
-            bootVersion: &quot;7.0.16&quot;
-            deviceBootCount: 0
-            deviceLifetime: 0
-            deviceUniqueId: &quot;************&quot;
-            deviceUptime: 6621
-            family: &quot;impala&quot;
-            model: &quot;XT1143&quot;
-            version: &quot;7.0.60&quot;
-        }</code></pre></div><p>These Objects can give more control/interface with the BrightSign Player and its hardware.</p>
-<h5>For cross-platform scripts check if the type is undefined and handle the object appropriately.</h5>
+);</code></pre></div><h5>For cross-platform scripts check if the type is undefined and handle the object appropriately.</h5>
 <div><pre class="line-numbers"><code class="language-none"> if((typeof new BSDeviceInfo()) !== &#39;undefined&#39;){
     //your BrightSign Specific Code Here
  }
 </code></pre></div><h2>Notes</h2>
 <ul>
 <li>Global click event is not sent when click occurs within WebZones</li>
-<li>MarqueeZones are not optimized and can cause performance issues</li>
-<li>Face analytics may cause heavy performance losses/memory crashes</li>
-<li>base64 library is dangerous and needs to be replaced</li>
 </ul>
 <h2>License</h2>
 <p>This project is closed source and can not be copied and/or distributed without the express permission of Revel Digital - see the <a href="LICENSE.md">LICENSE</a> file for details</p>
