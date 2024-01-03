@@ -28,9 +28,57 @@
                    <compodoc-menu mode="normal"></compodoc-menu>
                </div>
                <!-- START CONTENT -->
-               <div class="content package-properties">
+               <div class="content getting-started">
                    <div class="content-data">
 
+<h1>RevelDigital Universal Player</h1>
+<h3>Implemented Module Types</h3>
+<ul>
+<li><p>Clock - Analog or digital clock.</p>
+</li>
+<li><p>StaticImage - Single static image.</p>
+</li>
+<li><p>Gadget - Google Gadget.</p>
+</li>
+<li><p>Text - Static text.</p>
+</li>
+<li><p>RichText - Richly formatted text.</p>
+</li>
+<li><p>Image - Image slideshow with transitions.</p>
+</li>
+<li><p>Web - Web content.</p>
+</li>
+<li><p>Ticker - Scrolling marquee/ticker.</p>
+</li>
+<li><p>Shape - An image of a shape</p>
+</li>
+<li><p>QRCode - A QR code of text</p>
+</li>
+<li><p>HotSpot - Touch regions in kiosk applications.</p>
+</li>
+<li><p>TV - Live TV or video feed.</p>
+</li>
+</ul>
+<h2>Examples</h2>
+<h3>Listening For A Click</h3>
+<div><pre class="line-numbers"><code class="language-none">Controller.onClickEvent.subscribe(
+    (event: MouseEvent) =&gt;{
+        console.log(event);
+    });</code></pre></div><h3>Listening For A Command</h3>
+<div><pre class="line-numbers"><code class="language-none">Controller.onCommandCallback.subscribe(
+    (command) =&gt;{
+        console.log(command);
+    }
+);</code></pre></div><h5>For cross-platform scripts check if the type is undefined and handle the object appropriately.</h5>
+<div><pre class="line-numbers"><code class="language-none"> if((typeof new BSDeviceInfo()) !== &#39;undefined&#39;){
+    //your BrightSign Specific Code Here
+ }
+</code></pre></div><h2>Notes</h2>
+<ul>
+<li>Global click event is not sent when click occurs within WebZones</li>
+</ul>
+<h2>License</h2>
+<p>This project is closed source and can not be copied and/or distributed without the express permission of Revel Digital - see the <a href="LICENSE.md">LICENSE</a> file for details</p>
 
 
 
@@ -46,19 +94,7 @@
 
 
 
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item">Properties</li>
-    </ol>
-    <ul class="properties-list">
-        <li>
-            <b>Version</b> : 2.10.47-beta</li>
-        <li>
-            <b>Description</b> : Revel Digital Signage</li>
-        <li>
-            <b>Homepage</b> : https://www.reveldigital.com/</li>
-        <li>
-            <b>Author</b> : Revel Digital</li>
-    </ul>
+
 
 
 
@@ -89,8 +125,8 @@
 
        <script>
             var COMPODOC_CURRENT_PAGE_DEPTH = 0;
-            var COMPODOC_CURRENT_PAGE_CONTEXT = 'package-properties';
-            var COMPODOC_CURRENT_PAGE_URL = 'properties.html';
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'getting-started';
+            var COMPODOC_CURRENT_PAGE_URL = 'index.html';
             var MAX_SEARCH_RESULTS = 15;
        </script>
 
